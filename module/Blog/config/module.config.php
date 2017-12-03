@@ -13,11 +13,11 @@ return array(
                 'type'    => 'Literal',
                 'options' => array(
                     'route'    => '/blog',
-                    'defaults' => array(
+                    'defaults' => [
                         '__NAMESPACE__' => 'Blog\Controller',
                         'controller'    => 'Index',
                         'action'        => 'index',
-                    ),
+                    ],
                 ),
                 'may_terminate' => true,
                 'child_routes' => array(
